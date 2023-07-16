@@ -22,7 +22,7 @@ Import the `FollowMouse` component in your React application:
 
 ```
 import React from 'react';
-import FollowMouse from 'follow-mouse';
+import FollowMouse from 'react-smart-mouse'
 
 const App = () => {
   return (
@@ -106,6 +106,6 @@ In the example above, the <input> element has a mousecustom attribute with a JSO
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/BilVaD1/FollowMouse/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/BilVaD1/SmartMouse/blob/main/LICENSE) file for details.
 
 © Copyright 2023 - @BilVaD1

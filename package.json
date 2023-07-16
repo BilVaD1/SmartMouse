@@ -4,7 +4,7 @@
   "description": "A custom mouse cursor component with flexible settings",
   "author": "Vadym Bilan",
   "license": "MIT",
-  "repository": "https://github.com/BilVaD1/FollowMouse.git",
+  "repository": "https://github.com/BilVaD1/SmartMouse.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
