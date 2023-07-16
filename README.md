@@ -2,11 +2,9 @@
 
 The `FollowMouse` component is a React component that tracks the mouse cursor position and renders a customizable mouse follower element. It allows you to add interactive and visually appealing mouse effects to your web applications. Also, it understands which element it's hovering and apply the different related impacts on the component (e.g. `button`, `a`, `img`, `span`, `p`, etc...)
 
-![Demo](docs/demo.gif)
+<img src="https://drive.google.com/file/d/1PRgz1FoEHhQVB9d1iqsFpZTGbXzCzmtD/view" alt="Pagination demo" />
 
-(Live Demo)[]
-
-(SandBox)[]
+[Live Demo](https://myportfoliobilvad.netlify.app)
 
 ## Installation
 

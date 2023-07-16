@@ -129,7 +129,7 @@ const FollowMouse = forwardRef(({pStyle, aStyle, buttonStyle, spanStyle, imgStyl
       setMouseLeft(elStyle?.left ?? -10);
     }
     
-    if (elementName === 'button') {
+    if (elementName === 'button' && !turnElStyle) {
       setMouseHeight(buttonStyle?.height ?? '15px'); 
       setMouseWidth(buttonStyle?.width ?? '15px'); 
       setMouseColor(buttonStyle?.color ?? 'rgba(248, 246, 15, 1)');
