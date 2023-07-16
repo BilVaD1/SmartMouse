@@ -103,6 +103,24 @@ You can customize the default hover cursor appearance for individual elements by
 
 In the example above, the <input> element has a mousecustom attribute with a JSON string value that specifies a custom height of '50px'. You can apply this approach to other elements as well.
 
+## Next.js
+
+For using this component with Next.js you should create the client component and import FollowMouse to this component:
+
+```
+"use client"
+
+import React from 'react'
+import FollowMouse from 'react-smart-mouse'
+
+const FollowMouseComponent = () => {
+  return (
+    <FollowMouse />
+  )
+}
+
+export default FollowMouseComponent
+```
 
 ## License
 

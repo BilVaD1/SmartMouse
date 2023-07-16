@@ -1,3 +1,3 @@
-import FollowMouse from './FollowMouse';
+import FollowMouse from './FollowMouse'
 
-export default FollowMouse;
+export default FollowMouse
