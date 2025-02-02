@@ -1,13 +1,18 @@
 {
   "name": "react-smart-mouse",
   "version": "1.0.7",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/VadymDEV"
+  },
   "description": "A custom mouse cursor component with flexible settings",
   "author": "Vadym Bilan",
   "license": "MIT",
   "repository": "https://github.com/BilVaD1/SmartMouse.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
   "engines": {
     "node": ">=10"
   },
@@ -34,7 +39,8 @@
     "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
-    "microbundle-crl": "^0.13.11",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.0.1",
@@ -48,6 +54,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-standard": "^5.0.0",
     "gh-pages": "^6.3.0",
+    "microbundle-crl": "^0.13.11",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.4.2",
     "react": "^19.0.0",
