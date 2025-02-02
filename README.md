@@ -98,11 +98,16 @@ You can customize the default hover cursor appearance for different elements by 
   textareaStyle={{ color: 'brown', height: '35px', width: '35px' }}
   labelStyle={{ color: 'gray', height: '40px', width: '40px' }}
   liStyle={{ color: 'pink', height: '40px', width: '40px' }}
+  classStyle={{
+    'some-class': { width: '100px', height: '100px', color: 'red' },
+    'another-class': { width: '50px', height: '20px', color: 'green' },
+  }}
 />
 
 ```
 
 In the example above, we have specified custom styles for the `p`, `a`, `button`, `span`, `img`, `input`, `textarea`, `label`, and `li` elements. You can adjust the color, height, and width values to match your desired appearance.
+Also, we applied custom styles to the elements with classNames: some-class, another-class
 
 
 ## Customizing Individual Elements with mousecustom
@@ -110,7 +115,7 @@ In the example above, we have specified custom styles for the `p`, `a`, `button`
 You can customize the default hover cursor appearance for individual elements by using the mousecustom attribute on the element and passing a JSON string as its value. Here's an example of how you can use the mousecustom prop to customize the height of an element:
 
 ```
-<input type="text" mousecustom={JSON.stringify({ height: '50px' })} />
+<input type="text" mousecustom={JSON.stringify({ height: '50px', color: '#e1e89e' })} />
 ```
 
 In the example above, the <input> element has a mousecustom attribute with a JSON string value that specifies a custom height of '50px'. You can apply this approach to other elements as well.
