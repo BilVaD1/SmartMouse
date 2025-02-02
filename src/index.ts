@@ -1,3 +1,3 @@
-import FollowMouse from './FollowMouse'
+import SmartMouse from './SmartMouse'
 
-export default FollowMouse
+export default SmartMouse

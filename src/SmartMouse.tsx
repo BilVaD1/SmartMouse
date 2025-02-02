@@ -34,7 +34,7 @@ interface ElementStyle {
   left?: number;
 }
 
-const FollowMouse = forwardRef<HTMLDivElement, FollowMouseProps>(
+const SmartMouse = forwardRef<HTMLDivElement, FollowMouseProps>(
   (
     {
       pStyle,
@@ -298,4 +298,4 @@ const FollowMouse = forwardRef<HTMLDivElement, FollowMouseProps>(
   }
 );
 
-export default FollowMouse;
+export default SmartMouse;
